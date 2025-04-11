@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V&amp;S Ventures LLC</title>
+    <style>
+      /* Reset some defaults */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+      /* Navigation styling */
+      nav {
+        background: #1b263b;
+        color: white;
+        padding: 1rem;
+      }
+      nav .nav-container {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: #ffc107;
+        text-decoration: none;
+        margin-left: 1rem;
+        font-weight: bold;
+      }
+      /* Hero section styling */
+      .hero {
+        background: linear-gradient(135deg, #1b263b, #2d6cdf);
+        color: white;
+        text-align: center;
+        padding: 4rem 1rem;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      /* Main content styling */
+      main {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .contact-form {
+        background: white;
+        padding: 2rem;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+      }
+      .contact-form label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 1rem;
+        background: white;
+        color: #333;
+      }
+      .contact-form button {
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+        background: #ffc107;
+        color: #1b263b;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      /* Footer styling */
+      footer {
+        background: #f4f4f4;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      footer a {
+        color: #ffc107;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2.5rem;
+        }
+        nav .nav-container {
+          flex-direction: column;
+        }
+        nav a {
+          margin: 0.5rem 0;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" style="display: flex; align-items: center; gap: 0.5rem;">
+          <img src="vsventureslogo.png" alt="V&S Ventures Logo" height="30" />
+          <a href="index.html">V&amp;S Ventures LLC</a>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <h1>Welcome to V&amp;S Ventures LLC</h1>
+        <p>Your Partner in Software Innovation</p>
+      </section>
+
+      <section class="intro" id="about">
+        <h2>About Us</h2>
+        <p>
+          V&amp;S Ventures LLC is a software development company dedicated to
+          creating intuitive digital products. Our flagship platform,
+          <a
+            href="https://tailgate-time.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><strong>TailgateTime</strong></a
+          >, brings fans together for unforgettable pre-game experiences through
+          games, planning tools, and more.
+        </p>
+        <h3>What We Do</h3>
+        <ul>
+          <li>Mobile App Development</li>
+          <li>Custom Software Solutions</li>
+          <li>Interactive Experiences</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 V&amp;S Ventures LLC. All rights reserved.</p>
+      <p>211 East Sample Street, Ebensburg, PA 15931</p>
+      <p>team@vs-venturesllc.com</p>
+    </footer>
+  </body>
+</html>
