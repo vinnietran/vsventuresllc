@@ -1,0 +1,9 @@
+{
+  "name": "vsventures-functions",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "firebase-functions": "^4.0.0",
+    "@sendgrid/mail": "^8.1.3"
+  }
+}
